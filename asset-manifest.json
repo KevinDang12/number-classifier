@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/number-classifier/static/css/main.e6c13ad2.css",
+    "main.js": "/number-classifier/static/js/main.719b343c.js",
+    "static/js/787.7efd31bd.chunk.js": "/number-classifier/static/js/787.7efd31bd.chunk.js",
+    "index.html": "/number-classifier/index.html",
+    "main.e6c13ad2.css.map": "/number-classifier/static/css/main.e6c13ad2.css.map",
+    "main.719b343c.js.map": "/number-classifier/static/js/main.719b343c.js.map",
+    "787.7efd31bd.chunk.js.map": "/number-classifier/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.719b343c.js"
+  ]
+}
