@@ -21,7 +21,7 @@ function Canvas() {
         const trimmedCanvas = canvasRef.getTrimmedCanvas();
         const pixels = getCanvasPixels(trimmedCanvas, trimmedCanvas.width, trimmedCanvas.height);
 
-        const prediction = numberClassifier.predictNumber(pixels, 3);
+        const prediction = numberClassifier.predictNumber(pixels, 5);
         setAnswer(prediction)
     }
 
