@@ -72,11 +72,17 @@ function Canvas() {
             />
 
           </div>
-          <Button style={{display: 'inline-block', marginRight:'50px'}} onClick={onSubmitClick}>Submit</Button>
-          <Button onClick={onResetClick}>Clear</Button>
-          <p style={{fontSize: "20px"}}>
-              {showAnswer >= 0 ? "Your number is: " + showAnswer : ""}
-          </p>
+          <div style={{
+            textAlign: 'center',
+            flexDirection: 'column',
+            justifyContent:'center'}}>
+
+            <Button style={{display: 'inline-block', marginRight:'50px'}} onClick={onSubmitClick}>Submit</Button>
+            <Button onClick={onResetClick}>Clear</Button>
+            <p style={{fontSize: "20px"}}>
+                {showAnswer >= 0 ? "Your number is: " + showAnswer : ""}
+            </p>
+          </div>
       </div>
     );
 }
